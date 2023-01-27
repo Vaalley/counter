@@ -38,3 +38,35 @@ button {
 button:hover {
 	background-color: #e5e5e5;
 }
+
+button:active {
+	background-color: #d5d5d5;
+}
+
+@media (max-width: 768px) {
+	h1 {
+		font-size: 3rem;
+	}
+
+	p {
+		font-size: 2rem;
+	}
+
+	button {
+		font-size: 1.5rem;
+	}
+}
+
+@media (max-width: 480px) {
+	h1 {
+		font-size: 2rem;
+	}
+
+	p {
+		font-size: 1.5rem;
+	}
+
+	button {
+		font-size: 1rem;
+	}
+}
